@@ -1,0 +1,25 @@
+.site-header {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent svart */
+  color: white; /* Vit text för att säkerställa läsbarhet */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: absolute; /* Gör headern absolut positionerad över bilden */
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10; /* Se till att headern är över bilden */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+.user-icon {
+  cursor: pointer;
+}
